@@ -4,7 +4,7 @@ This is where we store our old repos. When projects are too inactive or too emba
 
 ##### 1. Clone the repo you want to archive
 
-##### 2. Create a bundle with all brances
+##### 2. Create a bundle with all branches
 ```bash
 git bundle create nameofrepo.bundle --all
 ```
