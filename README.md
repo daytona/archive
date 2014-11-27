@@ -5,17 +5,16 @@ This is where we store our old repos. When projects are too inactive or too emba
 
 ## To bundle
 
-##### 1. Clone the repo you want to archive
+1. Clone the repo you want to archive  
 
-##### 2. Create a bundle with all branches
-```bash
-git bundle create BUNDLE_NAME.bundle --all
-```
+2. Create a bundle with all branches
+ ```bash
+ git bundle create BUNDLE_NAME.bundle --all
+ ```
 
-##### 3. Add the bundle file to this repo and push it up!
+3. Move the bundle file to this repo and push it up!
 
-##### 4. Delete the old repo
-
+4. Delete the old repo
 
 ## To unbundle
 To revive a repo, treat the bundle just like a remote, using fetch
